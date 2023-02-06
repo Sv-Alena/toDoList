@@ -53,7 +53,7 @@ e.preventDefault()
                     ))}
                 </ol>
                 <div className="container">
-                    <button className="add" onClick={() => {this.addBtn(this.state.userInput)}}>&#10133;</button>
+                    <button className="add" onClick={() => {this.addBtn(this.state.userInput)}}>+</button>
                     <button className="delete" onClick={() =>{this.deleteBtn()} }>&#10006;</button>
                 </div>
             </div>
