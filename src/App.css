@@ -1,58 +1,67 @@
 body{
-    background-image: url(to-do-list.jpg);
-    background-repeat: no-repeat;
+    background-image: url('https://kartinkin.net/uploads/posts/2021-04/1617596911_23-p-fon-dlya-pisma-krasivii-24.jpg');
     background-position: center;
-    min-height: 130vh;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .container{
     display: flex;
     justify-content: center;
 }
 h1{
-margin-top: 80px;
-color: #0f7cc0;
+    color: #8f7c58;
 }
+
 input{
+    background: rgb(252, 230, 201);
     width: 30%;
+    color: #5c4f38;
     padding: 10px;
-border:none;
-outline-color: #fedb0b;
-font-size: 20px;
+    border:none;
+    outline-color: #9c9e7b;
+    font-size: 18px;
+    box-shadow:  2px 0px 0px 4px #9c9e7b;
 }
 
 ol{
-    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 li{
     font-size: 25px;
     padding: 5px;
-    color: rgb(75, 68, 68);
+    color: #5c4f38;
     cursor: pointer;
 
 }
 .crossed{
     text-decoration: line-through;
-    color: #93298e;
+    color: #5c4f38;
 }
+
 button{
     font-size: 20px;
     width: 55px;
     padding: 7px;
     border: none;
-    background-color: beige;
+    background: rgb(252, 224, 185);
     cursor: pointer;
     border-radius: 10px;
+    box-shadow:  2px 0px 0px 4px #948263;
 }
 .add{
-    border:2px solid #6ac343;
+    border:2px solid #cec794;
     margin-right: 15px;
-    color:#6ac343 ;
+    color:#5c4f38 ;
     font-size: 30px;
 }
 .delete{
-    border:2px solid #eb1a7b;
-    color: #eb1a7b;
+    border:2px solid #cec794;
+    color: #5c4f38;
     font-size:18px ;
 }
+
